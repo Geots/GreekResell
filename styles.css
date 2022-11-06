@@ -8,7 +8,7 @@ h2 {
 }
 
 p {
-  font-size: 45%;
+  font-size: 45px;
 }
 
 .title {
@@ -34,6 +34,7 @@ p {
 .fa {
   padding: 20px;
   width: 200px;
+  height: 30px;
   text-decoration: none;
   border-radius: 10px;
   position: relative;
