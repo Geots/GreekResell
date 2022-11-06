@@ -1,6 +1,6 @@
 @media (max-width: 900px) {
   body {
-    display: fill;
+    position: absolute;
     background-color: #1877F2;
     text-align: center;
   }
