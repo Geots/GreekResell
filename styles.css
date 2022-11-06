@@ -54,11 +54,6 @@ p {
   color: white;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.8;
-}
-
 #myVideo {
   position: absolute;
   bottom: 0;
