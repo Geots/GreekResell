@@ -42,8 +42,8 @@ p {
   width: 280px;
   height: 80px;
   text-decoration: none;
-  border-radius: 10px;
-  position: absolute;
+  border-radius: 12px;
+  position: relative;
   z-index: 1;
 }
 
