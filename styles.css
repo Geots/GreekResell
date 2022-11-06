@@ -49,6 +49,7 @@ p {
 
 /* Facebook */
 .fa-facebook {
+  font-size: 30px !important;
   background: #0753B7;
   color: white;
 }
