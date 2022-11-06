@@ -1,69 +1,87 @@
-body {
-	background-color: #1877F2;
-    text-align: center;
+@media (max-width: 900px) {
+  body {
+    background-color: #1877F2;
+      text-align: center;
+  }
+  
+  h2 {
+    font-size: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  p {
+    font-size: 35px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .title {
+    font-size: 80px;
+    padding-top: 25px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .glass-card {
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5.5px);
+      border: 1px solid rgba(255, 255, 255, 0.51);
+      margin: 10%;
+      margin-right: 10%;
+      margin-left: 10%;
+      padding-top: 4%;
+      padding-bottom: 4%;
+  }
+  
+  .fa {
+    padding-top: 35px;
+    padding-bottom: 0px;
+    width: 280px;
+    height: 80px;
+    text-decoration: none;
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    font-size: 50px !important;
+    background: #0753B7;
+    color: white;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.8;
+  }
+  
+  #myVideo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 0;
+  }
+
+
+  .desktop-view {
+    display: none;
+  }
 }
 
-h2 {
-  font-size: 55px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+@media (min-width: 900px) {
+  body {
+    background-color: lightblue;
+  }
 
-p {
-  font-size: 35px;
-  padding-top: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
 
-.title {
-  font-size: 80px;
-  padding-top: 25px;
-  position: relative;
-  z-index: 1;
-}
-
-.glass-card {
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.5px);
-    border: 1px solid rgba(255, 255, 255, 0.51);
-    margin: 10%;
-    margin-right: 10%;
-    margin-left: 10%;
-    padding-top: 4%;
-    padding-bottom: 4%;
-}
-
-.fa {
-  padding-top: 35px;
-  padding-bottom: 0px;
-  width: 280px;
-  height: 80px;
-  text-decoration: none;
-  border-radius: 12px;
-  position: relative;
-  z-index: 1;
-}
-
-/* Facebook */
-.fa-facebook {
-  font-size: 50px !important;
-  background: #0753B7;
-  color: white;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.8;
-}
-
-#myVideo {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  min-height: 100%;
-  min-width: 100%;
-  z-index: 0;
+  .mobile-view {
+    display: none;
+  }
 }
