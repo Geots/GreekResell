@@ -78,3 +78,8 @@ p {
   background-color: #403838;
   border-radius: 10px;
 }
+
+.contact-txt {
+  color: white;
+  margin: 4px;
+}
