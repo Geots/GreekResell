@@ -1,5 +1,5 @@
 var box = document.getElementById('cform')
-var down = true;
+var down = false;
 
 function togNotf() {
     if (down) {
