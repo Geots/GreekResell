@@ -79,6 +79,7 @@ p {
   border-radius: 12px;
   bottom: 0;
   margin: 25px;
+  display: none;
 }
 
 .contact-txt {
