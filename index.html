@@ -34,18 +34,12 @@
     <script>
         var i = 0;
         var txt = 'Gmail: test101@gmail.com';
-        var txt2 = 'Social Media: ........';
+        var txt2 = 'Social Media:.........'
         var speed = 50;
         
         function typeWriter() {
           if (i < txt.length) {
             document.getElementById("text").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-          }
-
-          if (i < txt.length) {
-            document.getElementById("text").innerHTML += txt2.charAt(i);
             i++;
             setTimeout(typeWriter, speed);
           }
