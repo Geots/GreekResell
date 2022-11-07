@@ -1,6 +1,6 @@
 body {
 	background-color: #1877F2;
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
@@ -93,8 +93,6 @@ p {
   background-color: #403838;
   position: absolute;
   width: 90%;
-}
-
-.contact-text {
-  width: 90%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
