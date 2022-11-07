@@ -98,6 +98,7 @@ p {
   height: auto;
   text-align: center;
   display: none;
+  bottom: 0;
 }
 
 .contact-text {
@@ -105,5 +106,4 @@ p {
   padding: 20px;
   font-size: 40px;
   font-weight: bold;
-  bottom: 0;
 }
