@@ -79,7 +79,6 @@ p {
   border-radius: 12px;
   bottom: 0;
   margin: 25px;
-  display: none;
 }
 
 .contact-txt {
@@ -98,6 +97,7 @@ p {
   width: 90%;
   height: auto;
   text-align: center;
+  display: none;
 }
 
 .contact-text {
