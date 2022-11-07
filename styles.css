@@ -96,12 +96,10 @@ p {
   margin-left: 5%;
   margin-right: 5%;
   background-color: #403838;
-  position: relative;
+  position: absolute;
   width: 80%;
   height: auto;
-  text-align: center;
   display: none;
-  margin-bottom: 0px;
 }
 
 .contact-text {
