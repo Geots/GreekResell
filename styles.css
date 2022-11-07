@@ -72,3 +72,8 @@ p {
   min-width: 100%;
   z-index: 0;
 }
+
+.loading-gif {
+  width: 70%;
+  height: auto;
+}
