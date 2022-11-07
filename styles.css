@@ -90,6 +90,8 @@ p {
 }
 
 .contact-form {
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: #403838;
   position: relative;
   width: 90%;
