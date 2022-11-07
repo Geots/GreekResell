@@ -96,8 +96,9 @@ p {
   position: relative;
   width: 90%;
   height: auto;
+  text-align: center;
 }
 
 .contact-text {
-  padding: 15px;
+  padding: 20px;
 }
