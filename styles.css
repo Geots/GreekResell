@@ -88,3 +88,7 @@ p {
   user-select: none;
   font-weight: bold;
 }
+
+.contact-form {
+  background-color: #403838;
+}
