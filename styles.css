@@ -94,7 +94,7 @@ p {
   margin-right: 5%;
   background-color: #403838;
   position: relative;
-  width: 800px;
+  width: 80%;
   height: auto;
   text-align: center;
   display: none;
@@ -104,4 +104,5 @@ p {
   color: white;
   padding: 20px;
   font-size: 40px;
+  font-weight: bold;
 }
