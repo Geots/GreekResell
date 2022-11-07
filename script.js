@@ -14,7 +14,7 @@ function togNotf() {
     }
 
     if (i < txt.length) {
-        document.getElementById("txt").innerHTML += txt.charAt(i);
+        document.getElementById("text").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typeWriter, speed);
       }
