@@ -23,7 +23,7 @@
         <a href="uconst.html" class="fa fa-facebook"></a>
     </div>
 
-    <div class="contact-btn" onclick="togNotf(); typeWriter1(); typeWriter2();">
+    <div class="contact-btn" onclick="togNotf(); typeWriter();">
         <h1 class="contact-txt">Contact us!</h1>
     </div>
 
@@ -33,30 +33,17 @@
 
     <script>
         var i = 0;
-        var txt = 'Gmail: test101@gmail.com';
+        var txt = 'Gmail: test101@gmail.com Social Media:...........';
         var speed = 50;
         
-        function typeWriter1() {
+        function typeWriter() {
           if (i < txt.length) {
             document.getElementById("text").innerHTML += txt.charAt(i);
             i++;
             setTimeout(typeWriter, speed);
           }
         }
-    </script>
-    <script>
-        var i = 0;
-        var txt = 'Social Media:...........';
-        var speed = 50;
-            
-        function typeWriter2() {
-            if (i < txt.length) {
-                document.getElementById("text").innerHTML += txt.charAt(i);
-                i++;
-                setTimeout(typeWriter, speed);
-              }
-            }
-    </script>
+        </script>
 
 </body>
 </html>
